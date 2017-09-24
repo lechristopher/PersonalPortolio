@@ -4,44 +4,44 @@
 	$main_image_type: 'image',
 	main_image: '/remote/direct_uploads/1506149121_IMG_0581.jpg',
 	$background_type: 'textarea',
-	background: 'I am currently a professional Full Stack Web Developer after taking UCLA\'s  Full Stack Web Development bootcamp. Attended UC Berkeley and graduated with a degree in Political Economy. Started my career in software sales with various tech companies and then transitioned over to customer support for a fin-tech start up.\n\nI decided to learn how to code because I want to stay in tune with technology and the ever changing world. I truly believe that one day, the world will be so immersed in technology that everyone will depend on it in ways that we couldn\'t possibly imagine - I want to be the builder of those types of experiences. Eventually, I want to use my technical and entrepreneurial skills to get into product and build beautiful user experiences for people.',
+	background: 'I am currently a professional Full Stack Web Developer after taking UCLA\'s  Full Stack Web Development bootcamp. Attended UC Berkeley and graduated with a degree in Political Economy. Started my career in software sales with various tech companies and then transitioned over to customer support for a fin-tech firm.\n\nI decided to learn how to code because I want to stay in tune with technology and the ever changing world. I truly believe that one day, the world will be so immersed in technology that everyone will depend on it for their everyday lives. Eventually, I want to use my technical and entrepreneurial skills to get into product and build beautiful user experiences for people.',
 	$projects_min: 1,
 	projects: [
 		{
-			title: 'Autonomous submarine',
+			title: 'Eat-Da-Burger',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880340_pexels-photo-27631.jpg',
-			link: 'http://newatlas.com/boeing-echo-voyager/42272/'
+			image: '/remote/direct_uploads/1506213788_BurgerPortfolioImage.jpeg',
+			link: 'https://stormy-ocean-20227.herokuapp.com/burgers'
 		},
 		{
-			title: 'Painting identification',
+			title: 'Train Scheduler',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880379_pexels-photo.jpg',
-			link: 'https://www.technologyreview.com/s/537366/the-machine-vision-algorithm-beating-art-historians-at-their-own-game/'
+			image: '/remote/direct_uploads/1506214111_TrainPersonalPortfolioImage.jpeg',
+			link: 'https://lechristopher.github.io/TrainScheduler/'
 		},
 		{
-			title: 'Drone obstacle identification',
+			title: 'Trivia Game',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880400_pexels-photo-301871.jpeg',
-			link: 'http://www.neurala.com/drone-logistics-security/'
+			image: '/remote/direct_uploads/1506214192_SwagPersonalPortfolio.jpg',
+			link: 'https://lechristopher.github.io/TriviaGame/#'
 		},
 		{
-			title: 'Machine learnt bird classification',
+			title: 'BattleGifs',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880412_pexels-photo-132987.jpeg',
-			link: 'https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.otc8klxv3'
+			image: '/remote/direct_uploads/1506214266_BattleshipImage.jpg',
+			link: 'https://angonlu.github.io/Battleship/'
 		},
 		{
-			title: 'Deep learning meetup',
+			title: 'Jameson Computer Repair Services',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880425_pexels-photo-57825.jpeg',
-			link: 'https://www.meetup.com/The-Deep-Learning-Group/'
+			image: '/remote/direct_uploads/1506214400_ComputerImage.png',
+			link: 'https://blooming-dawn-26577.herokuapp.com/about'
 		},
 		{
-			title: 'Apartment hunting AI',
+			title: 'Merchandise Store Front',
 			$image_type: 'image',
-			image: 'https://s3-eu-west-1.amazonaws.com/enduro.mirror/direct_uploads/1485880436_pexels-photo-279607.jpeg',
-			link: 'https://www.cs.cmu.edu/news/carnegie-mellon-project-uses-machine-learning-help-apartment-hunters-estimate-utility-costs'
+			image: '/remote/direct_uploads/1506214755_ComingSoonImage.png',
+			link: ''
 		}
 	],
 	$social_max: 3,
@@ -49,19 +49,25 @@
 	social: [
 		{
 			$icon_type: 'fa',
+			icon: 'github',
+			text: 'github',
+			link: 'https://github.com/lechristopher'
+		},
+		{
+			$icon_type: 'fa',
 			icon: 'linkedin',
-			text: 'Linkedin',
+			text: 'LinkedIn',
 			link: 'https://www.linkedin.com/in/le-christopher/'
 		},
 		{
 			$icon_type: 'fa',
-			icon: 'github',
-			text: 'github',
-			link: 'https://github.com/lechristopher'
+			icon: 'youtube-play',
+			text: 'Occasional Content Creator - Check out my latest video!',
+			link: 'https://www.youtube.com/watch?v=BbPq7tATm_A'
 		}
 	],
 	$hobby_background_type: 'image',
-	hobby_background: '/remote/direct_uploads/1506185298_IMG_0411.JPG',
+	hobby_background: '/remote/direct_uploads/1506213070_IMG_0411.JPG',
 	hobby_title: 'Ad-Venture Capitalist',
 	hobby_subtitle: 'Seeking funding in unique experiences.',
 	cta_tagline: 'Looking for a Web Developer?',
@@ -69,7 +75,7 @@
 	contact_email: 'le.christopher92@gmail.com',
 	footer_text: '2017 chrisle',
 	$footer_background_color_type: 'colorpicker',
-	footer_background_color: '#7e0343',
+	footer_background_color: '#51ff9f',
 	page_title: '',
 	display_edit_stamp: true,
 	$style_expander: true,
